@@ -1,0 +1,32 @@
+.Burger{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    /* if the burger exceeds 250px, we sholud be able to scroll it. and so it wount get cut off*/
+    overflow:scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+/*for devices that are not that wide but tall, potrait tall*/
+
+@media (min-width: 500px) and (min-height: 400px){
+    .Burger{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media (min-width: 500px) and (min-height: 401px){
+    .Burger{
+        width: 450px;
+        height: 400px;
+    }
+}
+@media (min-width: 1000px) and (min-height: 700px){
+    .Burger{
+        width: 700px;
+        height: 600px;
+    }
+}

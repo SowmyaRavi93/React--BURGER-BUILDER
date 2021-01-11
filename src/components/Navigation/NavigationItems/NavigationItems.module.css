@@ -1,0 +1,19 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    /* for the list to not have any default styles*/
+    list-style: none;
+    /* to sit next to eachother*/ 
+    display: flex;
+    /* to display in a column format*/
+    flex-flow: column;
+    
+    height: 100%;
+}
+
+@media (min-width: 500px){
+    .NavigationItems{
+        /*to sit next to eachother*/
+        flex-flow: row;
+    }
+}
